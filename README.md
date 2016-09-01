@@ -2,7 +2,11 @@
 
 Deb package for qtwebkit-plugins library
 
-# Build the .so library
+## Build the .so library
+
+Enter the package folder:
+
+    cd libqtwebkit-qupzillaplugins-1.0
 
 Update the `Makefile`:
 
@@ -17,7 +21,7 @@ Install with:
     sudo make install
 
 
-# Test
+## Test
 
 You can build a `pyqt` simple browser and test the spell checker plugin typying any mispelled word in the text input.
 
