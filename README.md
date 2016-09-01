@@ -1,6 +1,6 @@
 # libqtwebkit-qupzillaplugins
 
-Deb package for qtwebkit-plugins library
+Deb package for qtwebkit-plugins library created for QupZilla: https://github.com/QupZilla/qtwebkit-plugins
 
 ## Build the .so library
 
