@@ -1,0 +1,16 @@
+Source: libqtwebkit-qupzillaplugins
+Section: libs
+Priority: optional
+Maintainer: Rael Gugelmin Cunha <rael.gc@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libhunspell-dev, libqtwebkit-dev
+Standards-Version: 3.9.5
+Homepage: https://github.com/QupZilla/qtwebkit-plugins
+
+Package: libqtwebkit-qupzillaplugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqtwebkit4, libhunspell-1.3-0
+Description: Set of QtWebKit platform plugins for QtWebKit
+ Provides SpellCheck and Notification plugins for QtWebKit.
+ .
+ Although this plugin was written for QupZilla web browser, it has no 
+ dependency on it and can be used with every QtWebKit based application.
