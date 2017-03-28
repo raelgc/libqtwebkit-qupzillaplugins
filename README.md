@@ -2,6 +2,12 @@
 
 Deb package for qtwebkit-plugins library created for QupZilla: https://github.com/QupZilla/qtwebkit-plugins
 
+## Requirements
+
+Install required packages:
+
+    sudo apt-get install qt5-default libqt5webkit5-dev libhunspell-dev
+
 ## Build the .so library
 
 Enter the package folder:
